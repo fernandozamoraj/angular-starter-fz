@@ -1,0 +1,29 @@
+{
+  "name": "angular-starter-fz",
+  "version": "1.0.0",
+  "description": "an angular starter package with a express api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "false"
+  },
+  "keywords": [
+    "angular",
+    "starter",
+    "ng"
+  ],
+  "author": "fernandozamoraj",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
